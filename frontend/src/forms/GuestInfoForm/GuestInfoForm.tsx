@@ -63,7 +63,6 @@ const GuestInfoForm = ({ hotelId, pricePerNight }: Props) => {
       data.adultCount,
       data.childCount
     );
-    console.log('DATA ===>>>>>>>>>', data);
     navigate(`/hotel/${hotelId}/booking`);
   };
 
